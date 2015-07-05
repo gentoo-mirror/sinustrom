@@ -30,7 +30,7 @@ useful for home automation tasks.
 
 ### app-office
 
-#### jstock-1.0.7.6
+#### jstock-1.0.7.8
 
 * jstock is a free stock market application intended towards more serious traders.
 Allows to follow and manage your stock portfolio. Due to building environment
@@ -100,6 +100,6 @@ for electronic schematic and PCB design.
 
 ### sci-misc
 
-#### imagej-1.49{n,q,s}
+#### imagej-1.49{s,v}
 
 * Read and write GIF, JPEG, and ASCII. Read BMP, DICOM, and FITS.
