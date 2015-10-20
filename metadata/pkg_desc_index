@@ -9,4 +9,4 @@ net-misc/youtube-viewer 3.1.9: A command line utility for viewing youtube-videos
 net-p2p/btsync 1.4.106: Automatically sync files via secure, distributed technology
 net-p2p/btsync-gui 0.8.5: btsync GTK UI for Linux systems
 sci-electronics/kicad 20150320-r1: Electronic Schematic and PCB design tools.
-sci-misc/imagej 1.49s 1.49v: Image Processing and Analysis in Java
+sci-misc/imagej 1.49v 1.50c: Image Processing and Analysis in Java
