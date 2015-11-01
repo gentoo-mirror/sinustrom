@@ -4,7 +4,3 @@
 
 kde-misc/plasma-nm:modemmanager - Enable support for mobile broadband devices
 kde-misc/plasma-nm:openconnect - Build support for the OpenConnect VPN client
-sci-electronics/kicad:boost - Compile against dev-libs/boost libraries
-sci-electronics/kicad:github - Build GitHub plugin
-sci-electronics/kicad:help - Install help documentation and tutorials
-sci-electronics/kicad:i18n - Install GUI language files
