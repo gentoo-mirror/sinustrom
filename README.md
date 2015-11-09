@@ -43,6 +43,8 @@ constraints it's a binary package for now.
 * dblatex is a program that transforms your SGML/XML DocBook documents to
 DVI, PostScript or PDF by translating them into pure LaTeX as a first process.
 
+See [#129368](https://bugs.gentoo.org/show_bug.cgi?id=129368) 
+
 ### dev-embedded
 
 #### xr21v1410-1a
