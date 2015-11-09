@@ -1,6 +1,5 @@
 app-misc/sunwait 20041208: Sunwait is for calculating sunrise and sunset, as well as, civil, nautical, and astronomical twilights.
 app-office/jstock 1.0.7.10: JStock Free Stock Market Software
-app-text/dblatex 0.3.7: Transform DocBook using TeX macros
 dev-embedded/xr21v1410 1a: Exar XR21V1410 series UART to USB kernel drivers
 dev-python/csvkit 0.9.1-r1: csvkit is a suite of utilities for converting to and working with CSV, the king of tabular file formats
 kde-misc/plasma-nm 0.9.3.5-r1: KDE Plasma applet for NetworkManager
