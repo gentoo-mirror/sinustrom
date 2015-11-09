@@ -36,6 +36,13 @@ useful for home automation tasks.
 Allows to follow and manage your stock portfolio. Due to building environment
 constraints it's a binary package for now.
 
+### app-text
+
+#### dblatex-0.3.7
+
+* dblatex is a program that transforms your SGML/XML DocBook documents to
+DVI, PostScript or PDF by translating them into pure LaTeX as a first process.
+
 ### dev-embedded
 
 #### xr21v1410-1a
@@ -75,15 +82,6 @@ See [#532294](https://bugs.gentoo.org/show_bug.cgi?id=532294)
 #### btsync-gui-0.8.5
 
 * Bittorrent sync GTK UI for Linux systems.
-
-### sci-electronics
-
-#### kicad-20150320
-
-* Add latest version of KiCAD as Gentoo portage version is unmaintained.
-See [#499040](https://bugs.gentoo.org/show_bug.cgi?id=499040) and
-[#263053](https://bugs.gentoo.org/show_bug.cgi?id=263053). This is a package
-for electronic schematic and PCB design.
 
 ### sci-misc
 
