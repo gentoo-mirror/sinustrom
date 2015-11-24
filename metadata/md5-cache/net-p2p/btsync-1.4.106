@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Automatically sync files via secure, distributed technology
+EAPI=5
+HOMEPAGE=http://labs.bittorrent.com/experiments/sync.html
+KEYWORDS=~amd64 ~x86
+LICENSE=BitTorrent
+SLOT=0
+SRC_URI=x86? ( http://download.getsyncapp.com/endpoint/btsync/os/linux-i386/track/stable -> btsync-1.4.106-x86.tar.gz ) amd64? ( http://download.getsyncapp.com/endpoint/btsync/os/linux-x64/track/stable -> btsync-1.4.106-x64.tar.gz )
+_eclass_exported_funcs=src_install:-
+_md5_=1d6889c295358e51389e500675d76554
