@@ -1,10 +1,10 @@
-app-misc/sunwait 20041208: Sunwait is for calculating sunrise and sunset, as well as, civil, nautical, and astronomical twilights.
-app-office/jstock 1.0.7.10: JStock Free Stock Market Software
-dev-embedded/xr21v1410 1a: Exar XR21V1410 series UART to USB kernel drivers
-dev-python/csvkit 0.9.1-r1: csvkit is a suite of utilities for converting to and working with CSV, the king of tabular file formats
-kde-misc/plasma-nm 0.9.3.5-r1: KDE Plasma applet for NetworkManager
-media-sound/cursetag 20140831: NCurses based audio file tag (metadata) editor
-media-sound/musescore 2.0.1: WYSIWYG Music Score Typesetter
-net-p2p/btsync 1.4.106: Automatically sync files via secure, distributed technology
-net-p2p/btsync-gui 0.8.5: btsync GTK UI for Linux systems
+app-misc/sunwait 20041208: 
+app-office/jstock 1.0.7.10: 
+dev-embedded/xr21v1410 1a: 
+dev-python/csvkit 0.9.1-r1: 
+kde-misc/plasma-nm 0.9.3.5-r1: 
+media-sound/cursetag 20140831: 
+media-sound/musescore 2.0.1: 
+net-p2p/btsync 1.4.106: 
+net-p2p/btsync-gui 0.8.5: 
 sci-misc/imagej 1.49v 1.50c: Image Processing and Analysis in Java
