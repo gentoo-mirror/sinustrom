@@ -7,4 +7,5 @@ media-sound/cursetag 20140831: NCurses based audio file tag (metadata) editor
 media-sound/musescore 2.0.1: WYSIWYG Music Score Typesetter
 net-p2p/btsync 1.4.106: Automatically sync files via secure, distributed technology
 net-p2p/btsync-gui 0.8.5: btsync GTK UI for Linux systems
+sci-electronics/kicad 4.0.2-r3: Electronic Schematic and PCB design tools.
 sci-misc/imagej 1.49v 1.50c: Image Processing and Analysis in Java
