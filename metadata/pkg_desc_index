@@ -9,3 +9,4 @@ media-sound/musescore 2.0.1: WYSIWYG Music Score Typesetter
 net-p2p/btsync 1.4.106: Automatically sync files via secure, distributed technology
 net-p2p/btsync-gui 0.8.5: btsync GTK UI for Linux systems
 sci-misc/imagej 1.49v 1.50c: Image Processing and Analysis in Java
+sys-auth/oath-toolkit 2.6.2: Toolkit for using one-time password authentication with HOTP/TOTP algorithms
