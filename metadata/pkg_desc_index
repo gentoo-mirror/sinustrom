@@ -4,6 +4,7 @@ app-vim/extra-syntax 4-r2: vim plugin: metapackage for all extra syntax packages
 dev-db/sqlite 2.8.16-r5: SQLite: an SQL Database Engine in a C Library
 dev-embedded/xr21v1410 1a 1b: Exar XR21V1410 series UART to USB kernel drivers [3.6.x - recent]
 dev-python/csvkit 0.9.1-r1: csvkit is a suite of utilities for converting to and working with CSV, the king of tabular file formats
+media-libs/libid3tag 0.15.1b-r5: The MAD id3tag library
 media-sound/cursetag 20140831: NCurses based audio file tag (metadata) editor
 media-sound/musescore 2.0.1: WYSIWYG Music Score Typesetter
 net-libs/opal 3.10.11-r1: C++ class library normalising numerous telephony protocols
