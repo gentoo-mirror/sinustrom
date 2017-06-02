@@ -2,6 +2,13 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+media-sound/audacity:id3tag - Enables ID3 tagging with id3tag library
+media-sound/audacity:libsamplerate - Uses media-libs/libsamplerate as audio resampling library: Higher quality than the included resampler but lower quality and much slower than libsoxr.
+media-sound/audacity:midi - Enables MIDI support
+media-sound/audacity:sbsms - Enables sbsms library support for slower, more accurate pitch and tempo changing
+media-sound/audacity:soundtouch - Enables soundtouch library support for pitch and tempo changing
+media-sound/audacity:twolame - Enables twolame support (MPEG Audio Layer 2 encoder)
+media-sound/audacity:vamp - Enables vamp plugins support (Audio analysing plugins)
 net-libs/opal:capi - Enable CAPI support
 net-libs/opal:celt - Enable CELT ultra-low delay audio codec
 net-libs/opal:dtmf - Enable DTMF encoding/decoding support
