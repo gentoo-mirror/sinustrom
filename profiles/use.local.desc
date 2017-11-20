@@ -2,28 +2,4 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-net-libs/opal:capi - Enable CAPI support
-net-libs/opal:celt - Enable CELT ultra-low delay audio codec
-net-libs/opal:dtmf - Enable DTMF encoding/decoding support
-net-libs/opal:fax - Enable T.38 FAX protocol
-net-libs/opal:h224 - Enable H.224 real time control protocol
-net-libs/opal:h281 - Enable H.281 Far-End Camera Control protocol
-net-libs/opal:h323 - Enable H.323 protocol
-net-libs/opal:iax - Enable Inter-Asterisk eXchange protocol
-net-libs/opal:ilbc - Enable iLBC (RFC 3951) speech codec
-net-libs/opal:ivr - Enable Interactive Voice Response
-net-libs/opal:ixj - Enable xJack cards support
-net-libs/opal:lid - Enable Line Interface Device
-net-libs/opal:plugins - Enable plugins support
-net-libs/opal:sbc - Enable the Bluetooth low-complexity, SubBand Codec
-net-libs/opal:sip - Enable Session Initiation Protocol
-net-libs/opal:sipim - Enable SIP Instant Messages session
-net-libs/opal:srtp - Enable Secure Real-time Transport Protocol
-net-libs/opal:stats - Enable statistic reporting
-net-libs/opal:swig - Use swig to generate bindings
-net-libs/opal:video - Enable video support
-net-libs/opal:vpb - Enable Voicetronics VPB card support
-net-libs/opal:vxml - Enable VXML support
-net-libs/opal:wav - Enable WAVFILE support
-net-libs/opal:x264-static - Install x264 plugin statically linked with x264
 net-misc/casync:fuse - Build fuse2fs, a FUSE file system client for ext2/ext3/ext4 file systems
