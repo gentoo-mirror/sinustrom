@@ -33,3 +33,4 @@ net-libs/opal:vpb - Enable Voicetronics VPB card support
 net-libs/opal:vxml - Enable VXML support
 net-libs/opal:wav - Enable WAVFILE support
 net-libs/opal:x264-static - Install x264 plugin statically linked with x264
+net-misc/casync:fuse - Build fuse2fs, a FUSE file system client for ext2/ext3/ext4 file systems
