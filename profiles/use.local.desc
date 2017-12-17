@@ -2,4 +2,3 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-net-misc/casync:fuse - Build fuse2fs, a FUSE file system client for ext2/ext3/ext4 file systems
