@@ -9,7 +9,7 @@ dev-python/crate 0.22.0-r1: A Python client library for CrateDB.
 dev-python/csvkit 1.0.3: csvkit is a suite of utilities for converting to and working with CSV files.
 dev-python/dbfread 2.0.7: Library to read DBF files as native Python data types.
 dev-python/leather 0.3.3: Python charting for 80% of humans.
-dev-python/python-slugify 1.2.5: A Python slugify application that handles unicode.
+dev-python/python-slugify 4.0.0: A Python slugify application that handles unicode.
 dev-python/pytimeparse 1.1.8: A python library to parse time from human readable string.
 dev-util/nvidia-cuda-sdk 10.0.130: NVIDIA CUDA Software Development Kit
 sys-auth/oath-uri 1.0.0: A C/C++ library, and command line tool to generate OATH TOTP/HOTP key sharing URIs
