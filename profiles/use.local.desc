@@ -2,6 +2,4 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-dev-util/nvidia-cuda-sdk:cuda - Build CUDA binaries
-dev-util/nvidia-cuda-sdk:opencl - Build OpenCL binaries
 sys-auth/oath-uri:cli - Install command line tool

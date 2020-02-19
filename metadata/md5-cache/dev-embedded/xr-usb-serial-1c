@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm preinst setup
+DEPEND=app-arch/unzip kernel_linux? ( virtual/modutils ) sys-apps/sed kernel_linux? ( virtual/linux-sources virtual/libelf )
+DESCRIPTION=MaxLinear (Exar) XR series UART to USB kernel drivers
+EAPI=7
+HOMEPAGE=https://www.maxlinear.com/products/interface/uarts/usb-uarts
+IUSE=kernel_linux kernel_linux kernel_linux
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=https://www.maxlinear.com/content/document.ashx?id=21651 -> xr-usb-serial-1c.zip
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	linux-info	953c3b1c472dcadbf62098a9301327f2	linux-mod	4dde9df512b1d6f2f2507da5bda1f622	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=3bd8d3241f75b931765bb06ce9550eb9

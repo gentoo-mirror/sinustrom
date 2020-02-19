@@ -1,5 +1,5 @@
 dev-db/sqlite 2.8.16-r5: SQLite: an SQL Database Engine in a C Library
-dev-embedded/xr21v1410 1a 1b: Exar XR21V1410 series UART to USB kernel drivers [3.6.x - recent]
+dev-embedded/xr-usb-serial 1c: MaxLinear (Exar) XR series UART to USB kernel drivers
 dev-python/agate 1.6.1: agate is a data analysis library for humans, an alternative to numpy and pandas.
 dev-python/agate-dbf 0.2.0: agate-dbf adds read support for dbf files to agate.
 dev-python/agate-excel 0.2.2: Adds read support for Excel files (xls and xlsx) to agate.
@@ -10,6 +10,5 @@ dev-python/dbfread 2.0.7: Library to read DBF files as native Python data types.
 dev-python/leather 0.3.3: Python charting for 80% of humans.
 dev-python/python-slugify 4.0.0: A Python slugify application that handles unicode.
 dev-python/pytimeparse 1.1.8: A python library to parse time from human readable string.
-dev-util/nvidia-cuda-sdk 10.0.130: NVIDIA CUDA Software Development Kit
 sci-astronomy/sunwait 20190321: Sunwait is for calculating sunrise and sunset, and different twilights.
 sys-auth/oath-uri 1.0.0: A C/C++ library, and command line tool to generate OATH TOTP/HOTP key sharing URIs
