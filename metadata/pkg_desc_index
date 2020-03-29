@@ -1,6 +1,6 @@
 dev-embedded/xr-usb-serial 1c: MaxLinear (Exar) XR series UART to USB kernel drivers
 dev-python/agate 1.6.1: agate is a data analysis library for humans, an alternative to numpy and pandas.
-dev-python/agate-dbf 0.2.0: agate-dbf adds read support for dbf files to agate.
+dev-python/agate-dbf 0.2.1: agate-dbf adds read support for dbf files to agate.
 dev-python/agate-excel 0.2.2: Adds read support for Excel files (xls and xlsx) to agate.
 dev-python/agate-sql 0.5.3: agate-sql adds SQL read/write support to agate.
 dev-python/crate 0.22.0-r1: A Python client library for CrateDB.
