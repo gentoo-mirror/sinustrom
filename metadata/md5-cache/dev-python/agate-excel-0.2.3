@@ -1,14 +1,15 @@
 BDEPEND=python_targets_python3_6? ( >=dev-lang/python-3.6.10:3.6 ) python_targets_python3_7? ( >=dev-lang/python-3.7.6:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] >=dev-python/setuptools-42.0.2[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
 DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=A python library to parse time from human readable string.
+DEPEND=>=dev-python/agate-1.2.2 >=dev-python/nose-1.1.2 >=dev-python/openpyxl-2.3.0 >=dev-python/sphinx-1.2.2 >=dev-python/sphinx_rtd_theme-0.1.6 >=dev-python/tox-3.1.0 >=dev-python/wheel-0.24.0 >=dev-python/xlrd-0.9.4
+DESCRIPTION=Adds read support for Excel files (xls and xlsx) to agate.
 EAPI=7
-HOMEPAGE=https://github.com/wroberts/pytimeparse
+HOMEPAGE=http://agate-excel.rtfd.org
 IUSE=python_targets_python3_6 python_targets_python3_7
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=python_targets_python3_6? ( >=dev-lang/python-3.6.10:3.6 ) python_targets_python3_7? ( >=dev-lang/python-3.7.6:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] >=dev-python/setuptools-42.0.2[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
+RDEPEND=>=dev-python/agate-1.2.2 >=dev-python/nose-1.1.2 >=dev-python/openpyxl-2.3.0 >=dev-python/sphinx-1.2.2 >=dev-python/sphinx_rtd_theme-0.1.6 >=dev-python/tox-3.1.0 >=dev-python/wheel-0.24.0 >=dev-python/xlrd-0.9.4 python_targets_python3_6? ( >=dev-lang/python-3.6.10:3.6 ) python_targets_python3_7? ( >=dev-lang/python-3.7.6:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
 REQUIRED_USE=|| ( python_targets_python3_6 python_targets_python3_7 )
 SLOT=0
-SRC_URI=https://github.com/wroberts/pytimeparse/archive/1.1.8.tar.gz -> pytimeparse-1.1.8.tar.gz
+SRC_URI=https://github.com/wireservice/agate-excel/archive/0.2.3.tar.gz -> agate-excel-0.2.3.tar.gz
 _eclasses_=distutils-r1	577e2308f7b36e26062d464f59a5ee6c	multibuild	40fe59465edacd730c644ec2bc197809	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	8386b016a2b3bbefa88443fdaa898057	python-utils-r1	6f5996d2ae01e0c6f2869ed18f023239	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=a7b48274fb873468a8054f72a4d434da
+_md5_=7b9387abef977273b817a2de45ef461e
