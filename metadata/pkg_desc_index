@@ -7,7 +7,6 @@ dev-python/crate 0.23.2: A Python client library for CrateDB.
 dev-python/csvkit 1.0.5: csvkit is a suite of utilities for converting to and working with CSV files.
 dev-python/dbfread 2.0.7: Library to read DBF files as native Python data types.
 dev-python/leather 0.3.3: Python charting for 80% of humans.
-dev-python/python-slugify 4.0.0-r1: A Python slugify application that handles unicode.
 dev-python/pytimeparse 1.1.8: A python library to parse time from human readable string.
 dev-vcs/hub 2.14.2-r1: Command-line wrapper for git that makes you better at GitHub
 net-p2p/tremc 0.9.2: Ncurses interface for the Transmission BitTorrent client
