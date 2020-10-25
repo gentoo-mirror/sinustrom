@@ -12,4 +12,5 @@ dev-vcs/hub 2.14.2-r1: Command-line wrapper for git that makes you better at Git
 net-mail/getmail 6.8: A mail retriever with reliable Maildir and mbox delivery
 sci-astronomy/sunwait 20190321: Sunwait is for calculating sunrise and sunset, and different twilights.
 sys-auth/oath-uri 1.0.0: A C/C++ library, and CLI tool to generate OATH TOTP/HOTP key sharing URIs
+sys-fs/gocryptfs 1.8.0: Encrypted overlay filesystem written in Go
 sys-fs/securefs 0.11.1: securefs is a filesystem in userspace with transparent encryption and decryption
