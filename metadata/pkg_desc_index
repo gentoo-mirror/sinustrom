@@ -9,7 +9,7 @@ dev-python/dbfread 2.0.7: Library to read DBF files as native Python data types.
 dev-python/leather 0.3.3: Python charting for 80% of humans.
 dev-python/pytimeparse 1.1.8: A python library to parse time from human readable string.
 dev-vcs/hub 2.14.2-r1: Command-line wrapper for git that makes you better at GitHub
-net-mail/getmail 6.8: A mail retriever with reliable Maildir and mbox delivery
+net-mail/getmail 6.9: A mail retriever with reliable Maildir and mbox delivery
 sci-astronomy/sunwait 20190321: Sunwait is for calculating sunrise and sunset, and different twilights.
 sys-auth/oath-uri 1.0.0: A C/C++ library, and CLI tool to generate OATH TOTP/HOTP key sharing URIs
 sys-fs/gocryptfs 1.8.0: Encrypted overlay filesystem written in Go
