@@ -11,6 +11,7 @@ dev-python/pivy 0.6.5: Coin3D bindings for Python
 dev-python/pyside2-tools 5.15.1: PySide development tools (lupdate, rcc, uic)
 dev-python/pytimeparse 1.1.8: A python library to parse time from human readable string.
 dev-util/github-cli 1.2.0: GitHub CLI
+media-gfx/freecad 0.18.4-r2: QT based Computer Aided Design application
 sci-astronomy/sunwait 20190321: Sunwait is for calculating sunrise and sunset, and different twilights.
 sci-libs/med 4.1.0: A library to store and exchange meshed data or computation results
 sci-mathematics/netgen 6.2.2009: Automatic 3d tetrahedal mesh generator
