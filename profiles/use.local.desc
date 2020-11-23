@@ -5,4 +5,9 @@
 dev-python/pivy:quarter - Use media-libs/quarter for GUI bindings
 dev-python/pivy:soqt - Use media-libs/SoQt for GUI bindings
 dev-python/pyside2-tools:tools - Install supplementary tools (rcc, uic, designer)
+sci-mathematics/netgen:ffmpeg - Enable video recording with media-video/ffmpeg
+sci-mathematics/netgen:gui - Build the graphical user interface
+sci-mathematics/netgen:jpeg - Enable snapshots using a virtual/jpeg
+sci-mathematics/netgen:mpi - Enable mpi parallelization using virtual/mpi
+sci-mathematics/netgen:opencascade - Compile with OpenCascade geometry kernel (not supported upstream)
 sys-auth/oath-uri:cli - Install command line tool
