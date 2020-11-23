@@ -8,6 +8,7 @@ dev-python/csvkit 1.0.5: csvkit is a suite of utilities for converting to and wo
 dev-python/dbfread 2.0.7: Library to read DBF files as native Python data types.
 dev-python/leather 0.3.3: Python charting for 80% of humans.
 dev-python/pivy 0.6.5: Coin3D bindings for Python
+dev-python/pyside2-tools 5.15.1: PySide development tools (lupdate, rcc, uic)
 dev-python/pytimeparse 1.1.8: A python library to parse time from human readable string.
 dev-util/github-cli 1.2.0: GitHub CLI
 sci-astronomy/sunwait 20190321: Sunwait is for calculating sunrise and sunset, and different twilights.
