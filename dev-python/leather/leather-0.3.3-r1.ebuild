@@ -1,13 +1,13 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{6,7} )
+PYTHON_COMPAT=( python3_{7,8,9} )
 inherit distutils-r1
 
-DESCRIPTION="agate-sql adds SQL read/write support to agate."
-HOMEPAGE="https://agate-sql.readthedocs.io"
+DESCRIPTION="Python charting for 80% of humans."
+HOMEPAGE="http://leather.rtfd.io"
 SRC_URI="https://github.com/wireservice/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,12 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="
-	dev-python/crate
-	>=dev-python/agate-1.5.0
-	>=dev-python/nose-1.1.2
+	>=dev-python/coverage-3.7.1
+	>=dev-python/cssselect-0.9.1
+	>=dev-python/lxml-3.6.0
+	>=dev-python/nose-1.3.7
+	>=dev-python/six-1.10.0
 	>=dev-python/sphinx-1.2.2
-	>=dev-python/sphinx_rtd_theme-0.1.6
-	>=dev-python/sqlalchemy-1.0.8
+	>=dev-python/sphinx_rtd_theme-0.1.9
 	>=dev-python/tox-1.3
 	>=dev-python/wheel-0.24.0
 "
