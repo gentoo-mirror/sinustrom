@@ -1,0 +1,15 @@
+BDEPEND=python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)] >=dev-python/setuptools-42.0.2[python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)]
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=dev-python/agate-1.2.2 >=dev-python/nose-1.1.2 >=dev-python/openpyxl-2.3.0 >=dev-python/sphinx-1.2.2 >=dev-python/sphinx_rtd_theme-0.1.6 >=dev-python/tox-3.1.0 >=dev-python/wheel-0.24.0 >=dev-python/xlrd-0.9.4
+DESCRIPTION=Adds read support for Excel files (xls and xlsx) to agate.
+EAPI=7
+HOMEPAGE=http://agate-excel.rtfd.org
+IUSE=python_targets_python3_7 python_targets_python3_8 python_targets_python3_9
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-python/agate-1.2.2 >=dev-python/nose-1.1.2 >=dev-python/openpyxl-2.3.0 >=dev-python/sphinx-1.2.2 >=dev-python/sphinx_rtd_theme-0.1.6 >=dev-python/tox-3.1.0 >=dev-python/wheel-0.24.0 >=dev-python/xlrd-0.9.4 python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)]
+REQUIRED_USE=|| ( python_targets_python3_7 python_targets_python3_8 python_targets_python3_9 )
+SLOT=0
+SRC_URI=https://github.com/wireservice/agate-excel/archive/0.2.3.tar.gz -> agate-excel-0.2.3.tar.gz
+_eclasses_=distutils-r1	da11a2440dca0fd6b722d7dda3dc9328	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	4c65b35c1895b82c0f44e44166a3464f	python-utils-r1	69861348186337fa4b269de5826004b3	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=a39c7e1a7cd4a3083426f2631ca62644

@@ -1,20 +1,18 @@
-dev-embedded/xr-usb-serial 1c: MaxLinear (Exar) XR series UART to USB kernel drivers
-dev-python/agate 1.6.1: agate is a data analysis library for humans, an alternative to numpy and pandas.
-dev-python/agate-dbf 0.2.1: agate-dbf adds read support for dbf files to agate.
-dev-python/agate-excel 0.2.3: Adds read support for Excel files (xls and xlsx) to agate.
-dev-python/agate-sql 0.5.4: agate-sql adds SQL read/write support to agate.
-dev-python/crate 0.23.2: A Python client library for CrateDB.
-dev-python/csvkit 1.0.5: csvkit is a suite of utilities for converting to and working with CSV files.
-dev-python/dbfread 2.0.7: Library to read DBF files as native Python data types.
-dev-python/leather 0.3.3: Python charting for 80% of humans.
-dev-python/pivy 0.6.5: Coin3D bindings for Python
+dev-embedded/xr-usb-serial 1c: MaxLinear (Exar) XR21 series UART to USB kernel drivers
+dev-python/agate 1.6.1-r1: agate is a data analysis library for humans, an alternative to numpy and pandas.
+dev-python/agate-dbf 0.2.2: agate-dbf adds read support for dbf files to agate.
+dev-python/agate-excel 0.2.3-r1: Adds read support for Excel files (xls and xlsx) to agate.
+dev-python/agate-sql 0.5.5: agate-sql adds SQL read/write support to agate.
+dev-python/crate 0.26.0: A Python client library for CrateDB.
+dev-python/csvkit 1.0.5-r1: csvkit is a suite of utilities for converting to and working with CSV files.
+dev-python/dbfread 2.0.7-r1: Library to read DBF files as native Python data types.
+dev-python/leather 0.3.3-r1: Python charting for 80% of humans.
+dev-python/pivy 0.6.5-r1: Coin3D bindings for Python
 dev-python/pyside2-tools 5.15.1: PySide development tools (lupdate, rcc, uic)
-dev-python/pytimeparse 1.1.8: A python library to parse time from human readable string.
-dev-util/github-cli 1.2.0: GitHub CLI
+dev-python/pytimeparse 1.1.8-r1: A python library to parse time from human readable string.
 media-gfx/freecad 0.19_pre20201231: QT based Computer Aided Design application
-sci-astronomy/sunwait 20190321: Sunwait is for calculating sunrise and sunset, and different twilights.
-sci-libs/med 4.1.0: A library to store and exchange meshed data or computation results
-sci-mathematics/netgen 6.2.2009: Automatic 3d tetrahedal mesh generator
+sci-astronomy/sunwait 20201026: Sunwait is for calculating sunrise and sunset, and different twilights.
+sci-mathematics/netgen 6.2.2101: Automatic 3d tetrahedal mesh generator
 sys-auth/oath-uri 1.0.0: A C/C++ library, and CLI tool to generate OATH TOTP/HOTP key sharing URIs
 sys-block/sedutil 1.15.1-r1: The Drive Trust Alliance Self Encrypting Drive Utility
 sys-fs/gocryptfs 1.8.0: Encrypted overlay filesystem written in Go
