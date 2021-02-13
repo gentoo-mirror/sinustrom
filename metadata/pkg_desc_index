@@ -1,14 +1,16 @@
+app-arch/libzim 6.3.0: Reference implementation for the ZIM file format
+app-text/csvkit 1.0.5-r1: csvkit is a suite of utilities for converting to and working with CSV files.
 dev-embedded/xr-usb-serial 1c: MaxLinear (Exar) XR21 series UART to USB kernel drivers
 dev-python/agate 1.6.1-r1: agate is a data analysis library for humans, an alternative to numpy and pandas.
 dev-python/agate-dbf 0.2.2: agate-dbf adds read support for dbf files to agate.
 dev-python/agate-excel 0.2.3-r1: Adds read support for Excel files (xls and xlsx) to agate.
 dev-python/agate-sql 0.5.5: agate-sql adds SQL read/write support to agate.
 dev-python/crate 0.26.0: A Python client library for CrateDB.
-dev-python/csvkit 1.0.5-r1: csvkit is a suite of utilities for converting to and working with CSV files.
 dev-python/dbfread 2.0.7-r1: Library to read DBF files as native Python data types.
 dev-python/leather 0.3.3-r1: Python charting for 80% of humans.
 dev-python/pivy 0.6.5-r1: Coin3D bindings for Python
 dev-python/pyside2-tools 5.15.1: PySide development tools (lupdate, rcc, uic)
+dev-python/python-libzim 0.0.3: The Python-libzim package allows you to read/write ZIM files in Python.
 dev-python/pytimeparse 1.1.8-r1: A python library to parse time from human readable string.
 media-gfx/freecad 0.19_pre20201231: QT based Computer Aided Design application
 sci-astronomy/sunwait 20201026: Sunwait is for calculating sunrise and sunset, and different twilights.
