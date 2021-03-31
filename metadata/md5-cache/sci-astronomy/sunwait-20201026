@@ -2,6 +2,7 @@ DEFINED_PHASES=install unpack
 DESCRIPTION=Sunwait is for calculating sunrise and sunset, and different twilights.
 EAPI=7
 HOMEPAGE=http://www.risacher.org/sunwait/
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 SLOT=0
