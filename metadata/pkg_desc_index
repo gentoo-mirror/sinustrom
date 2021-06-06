@@ -2,7 +2,7 @@ app-arch/libzim 6.3.0: Reference implementation for the ZIM file format
 app-text/csvkit 1.0.5-r1: csvkit is a suite of utilities for converting to and working with CSV files.
 app-text/pyglossary 4.0.11: A tool for converting dictionary files aka glossaries.
 dev-embedded/xr-usb-serial 1c: MaxLinear (Exar) XR21 series UART to USB kernel drivers
-dev-python/agate 1.6.1-r2: agate is a data analysis library for humans, an alternative to numpy and pandas.
+dev-python/agate 1.6.1-r3: agate is a data analysis library for humans, an alternative to numpy and pandas.
 dev-python/agate-dbf 0.2.2-r1: agate-dbf adds read support for dbf files to agate.
 dev-python/agate-excel 0.2.3-r2: Adds read support for Excel files (xls and xlsx) to agate.
 dev-python/agate-sql 0.5.5-r1: agate-sql adds SQL read/write support to agate.
