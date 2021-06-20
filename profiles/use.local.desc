@@ -5,6 +5,11 @@
 dev-python/pivy:quarter - Use media-libs/quarter for GUI bindings
 dev-python/pivy:soqt - Use media-libs/SoQt for GUI bindings
 dev-python/pyside2-tools:tools - Install supplementary tools (rcc, uic, designer)
+media-libs/opensubdiv:cuda - Enable NVIDIA CUDA Toolkit support through dev-util/nvidia-cuda-toolkit
+media-libs/opensubdiv:opencl - Enable OpenCL support through virtual/opencl
+media-libs/opensubdiv:ptex - Adds support for faster per-face texture mapping through media-libs/ptex
+media-libs/opensubdiv:tbb - Enable multithreading with the Intel Threads Building Blocks through dev-cpp/tbb
+media-libs/opensubdiv:tutorials - Install the tutorials
 sci-mathematics/netgen:ffmpeg - Enable video recording with media-video/ffmpeg
 sci-mathematics/netgen:gui - Build the graphical user interface
 sci-mathematics/netgen:jpeg - Enable snapshots using a virtual/jpeg

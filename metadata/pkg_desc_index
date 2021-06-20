@@ -13,6 +13,7 @@ dev-python/pivy 0.6.5-r1: Coin3D bindings for Python
 dev-python/pyside2-tools 5.15.1: PySide development tools (lupdate, rcc, uic)
 dev-python/python-libzim 0.0.3: The Python-libzim package allows you to read/write ZIM files in Python.
 dev-python/pytimeparse 1.1.8-r1: A python library to parse time from human readable string.
+media-libs/opensubdiv 3.4.3-r1: An Open-Source subdivision surface library
 sci-astronomy/sunwait 20201026: Sunwait is for calculating sunrise and sunset, and different twilights.
 sci-mathematics/netgen 6.2.2101: Automatic 3d tetrahedal mesh generator
 sys-auth/oath-uri 1.0.0: A C/C++ library, and CLI tool to generate OATH TOTP/HOTP key sharing URIs
