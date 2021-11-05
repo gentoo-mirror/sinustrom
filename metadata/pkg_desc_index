@@ -2,7 +2,7 @@ app-arch/libzim 7.0.0: Reference implementation for the ZIM file format
 app-text/pyglossary 4.0.11: A tool for converting dictionary files aka glossaries.
 dev-embedded/xr-usb-serial 1d: MaxLinear (Exar) XR21 series UART to USB kernel drivers
 dev-python/pivy 0.6.5-r1: Coin3D bindings for Python
-dev-python/pyside2-tools 5.15.1: PySide development tools (lupdate, rcc, uic)
+dev-python/pyside2-tools 5.15.2: PySide development tools (lupdate, rcc, uic)
 dev-python/python-libzim 0.0.3: The Python-libzim package allows you to read/write ZIM files in Python.
 media-libs/opensubdiv 3.4.3-r1: An Open-Source subdivision surface library
 sci-astronomy/sunwait 20201026: Sunwait is for calculating sunrise and sunset, and different twilights.
