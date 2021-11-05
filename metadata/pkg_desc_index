@@ -1,4 +1,4 @@
-app-arch/libzim 6.3.0: Reference implementation for the ZIM file format
+app-arch/libzim 7.0.0: Reference implementation for the ZIM file format
 app-text/pyglossary 4.0.11: A tool for converting dictionary files aka glossaries.
 dev-embedded/xr-usb-serial 1d: MaxLinear (Exar) XR21 series UART to USB kernel drivers
 dev-python/pivy 0.6.5-r1: Coin3D bindings for Python

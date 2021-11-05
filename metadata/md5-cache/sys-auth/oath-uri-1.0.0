@@ -1,13 +1,13 @@
-BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
 DESCRIPTION=A C/C++ library, and CLI tool to generate OATH TOTP/HOTP key sharing URIs
 EAPI=7
 HOMEPAGE=https://sinustrom.info/projects/oath-uri/
-INHERIT=cmake-utils flag-o-matic
+INHERIT=cmake
 IUSE=+cli
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2+ GPL-3+
 SLOT=0
 SRC_URI=https://github.com/zpuskas/oath-uri/archive/v1.0.0.tar.gz -> oath-uri-1.0.0.tar.gz
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	cmake-utils	f40ef5c4fb8eda19cca8d6604bef497e
-_md5_=eeba6b1fcc613870c8bf97d7184670f0
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	cmake	11fee991ab428a3370e5c20fa8231fb6
+_md5_=884b0a0ff00e37219f999fc31f2599db
