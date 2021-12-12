@@ -6,6 +6,7 @@ dev-python/pyside2-tools 5.15.2: PySide development tools (lupdate, rcc, uic)
 dev-python/python-libzim 0.0.3: The Python-libzim package allows you to read/write ZIM files in Python.
 media-libs/opensubdiv 3.4.3-r1: An Open-Source subdivision surface library
 sci-astronomy/sunwait 20201026: Sunwait is for calculating sunrise and sunset, and different twilights.
+sci-electronics/smuview 9999: SmuView is a Qt based source measure unit GUI for sigrok
 sci-mathematics/netgen 6.2.2101: Automatic 3d tetrahedal mesh generator
 sys-auth/oath-uri 1.0.0: A C/C++ library, and CLI tool to generate OATH TOTP/HOTP key sharing URIs
 sys-block/sedutil 1.15.1-r1: The Drive Trust Alliance Self Encrypting Drive Utility
