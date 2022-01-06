@@ -12,4 +12,4 @@ sci-mathematics/netgen 6.2.2101: Automatic 3d tetrahedal mesh generator
 sys-auth/oath-uri 1.0.0: A C/C++ library, and CLI tool to generate OATH TOTP/HOTP key sharing URIs
 sys-block/sedutil 1.15.1-r1: The Drive Trust Alliance Self Encrypting Drive Utility
 sys-fs/gocryptfs 2.2.1: Encrypted overlay filesystem written in Go
-sys-fs/securefs 0.11.1-r1: securefs is a filesystem in userspace with transparent encryption and decryption
+sys-fs/securefs 0.12.0: securefs is a filesystem in userspace with transparent encryption and decryption
