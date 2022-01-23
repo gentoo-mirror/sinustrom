@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=reddio is a command-line interface for Reddit written in POSIX sh
+EAPI=8
+HOMEPAGE=https://gitlab.com/aaronNG/reddio
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=app-misc/jq net-analyzer/netcat net-misc/curl sys-apps/coreutils
+SLOT=0
+SRC_URI=https://gitlab.com/aaronNG/reddio/-/archive/v0.46/reddio-v0.46.tar.bz2 -> reddio-0.46.tar.bz2
+_md5_=8b9f73a110c19ee1983c6a7e6c1d5194
