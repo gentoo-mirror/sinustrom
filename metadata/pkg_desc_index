@@ -1,4 +1,5 @@
 app-arch/libzim 7.1.0: Reference implementation for the ZIM file format
+app-crypt/eSzemelyi 1.6.21: Electronic Identity Card middleware supplied by the Hungarian Government
 app-text/pyglossary 4.0.11: A tool for converting dictionary files aka glossaries.
 dev-embedded/xr-usb-serial 1d: MaxLinear (Exar) XR21 series UART to USB kernel drivers
 dev-python/dokuwikixmlrpc 2021.3.28: Python module which implements DokuWiki's XML-RPC interface
@@ -13,4 +14,4 @@ sci-mathematics/netgen 6.2.2101: Automatic 3d tetrahedal mesh generator
 sys-auth/oath-uri 1.0.0: A C/C++ library, and CLI tool to generate OATH TOTP/HOTP key sharing URIs
 sys-block/sedutil 1.15.1-r1: The Drive Trust Alliance Self Encrypting Drive Utility
 sys-fs/gocryptfs 2.2.1: Encrypted overlay filesystem written in Go
-www-apps/reddio 0.46: reddio is a command-line interface for Reddit written in POSIX sh
+www-apps/reddio 0.50: reddio is a command-line interface for Reddit written in POSIX sh
