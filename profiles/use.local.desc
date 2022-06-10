@@ -2,9 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-misc/mc:edit - Compile and install the mcedit application
-app-misc/mc:sftp - Add support for sftp (uses net-libs/libssh2 for it).
-app-misc/mc:slang - Use sys-libs/slang instead of sys-libs/ncurses.
 dev-python/pivy:quarter - Use media-libs/quarter for GUI bindings
 dev-python/pivy:soqt - Use media-libs/SoQt for GUI bindings
 dev-python/pyside2-tools:tools - Install supplementary tools (rcc, uic, designer)
