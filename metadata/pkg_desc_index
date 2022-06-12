@@ -1,3 +1,4 @@
+app-admin/ryzen_smu 0.1.2_p20211205-r1: Kernel driver for AMD Ryzen's System Management Unit
 app-arch/libzim 7.1.0: Reference implementation for the ZIM file format
 app-crypt/eSzemelyi 1.6.21: Electronic Identity Card middleware supplied by the Hungarian Government
 app-text/pyglossary 4.0.11: A tool for converting dictionary files aka glossaries.
