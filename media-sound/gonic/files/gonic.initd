@@ -2,10 +2,16 @@
 
 GONIC_CONFIGFILE=${GONIC_CONFIGFILE:-/etc/gonic/gonic.conf}
 
-command="/usr/bin/gonic"
-command_args="-config-path \"${GONIC_CONFIGFILE}\""
+description="gonic server"
+pidfile=${pidfile:-"/run/gonic.pid"}
 user=${GONIC_USER:-gonic}
 group=${GONIC_GROUP:-gonic}
+
+command="/usr/bin/gonic"
+command_args="-config-path \"${GONIC_CONFIGFILE}\""
+command_background="true"
+output_log="/var/log/gonic/gonic_out.log"
+error_log="/var/log/gonic/gonic_err.log"
 
 depend() {
     after net
