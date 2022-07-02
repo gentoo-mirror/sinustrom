@@ -302,6 +302,9 @@ src_install() {
 		newconfd "${FILESDIR}/${PN}.confd" "${PN}"
 	fi
 
+	# Log directory
+	keepdir "/var/log/${PN}"
+
 	# Default media directories
 	keepdir "/var/lib/${PN}/music"
 	keepdir "/var/lib/${PN}/podcast"
@@ -324,7 +327,7 @@ pkg_postinst() {
 
 	if ! use systemd; then
 		ewarn ""
-		ewarn "gonic currently does not self clean it's transcoding cach directory."
+		ewarn "gonic currently does not self clean it's transcoding cache directory."
 		ewarn "While there is a tmpfiles config included with the install, on hosts"
 		ewarn "with long uptimes users may want to consider scheduling a cron job"
 		ewarn "to call systemd-tmpfiles periodically to avoid running out of disk space."
