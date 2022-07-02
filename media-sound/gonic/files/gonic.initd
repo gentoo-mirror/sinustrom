@@ -1,0 +1,13 @@
+#!/sbin/openrc-run
+
+GONIC_CONFIGFILE=${GONIC_CONFIGFILE:-/etc/gonic/gonic.conf}
+
+command="/usr/bin/gonic"
+command_args="-config-path \"${GONIC_CONFIGFILE}\""
+user=${GONIC_USER:-gonic}
+group=${GONIC_GROUP:-gonic}
+
+depend() {
+    after net
+    use logger
+}
