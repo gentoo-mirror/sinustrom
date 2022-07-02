@@ -300,7 +300,6 @@ src_install() {
 	else
 		newinitd "${FILESDIR}/${PN}.initd" "${PN}"
 		newconfd "${FILESDIR}/${PN}.confd" "${PN}"
-		keepdir "/var/cache/${PN}"
 	fi
 
 	# Default media directories
@@ -314,7 +313,7 @@ src_install() {
 pkg_postinst() {
 	chown 0:gonic "${EPREFIX}/var/log/${PN}"
 	chmod 710 "${EPREFIX}/var/log/${PN}"
-	tmpfiles_process
+	tmpfiles_process "${PN}.conf"
 
 	einfo ""
 	einfo "gonic presents an HTTP server for the admin interface. The default"
