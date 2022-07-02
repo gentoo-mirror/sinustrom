@@ -314,8 +314,8 @@ src_install() {
 }
 
 pkg_postinst() {
-	chown 0:gonic "${EPREFIX}/var/log/${PN}"
-	chmod 710 "${EPREFIX}/var/log/${PN}"
+	chown gonic:gonic "${EPREFIX}/var/log/${PN}"
+	chmod 750 "${EPREFIX}/var/log/${PN}"
 	tmpfiles_process "${PN}.conf"
 
 	einfo ""
