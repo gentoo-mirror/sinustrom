@@ -274,7 +274,7 @@ DEPEND="
 	dev-db/sqlite
 	media-libs/alsa-lib
 	media-libs/taglib
-	media-video/ffmpeg
+	media-video/ffmpeg[encode,libsoxr,mp3,opus]
 "
 RDEPEND="
 	${DEPEND}
