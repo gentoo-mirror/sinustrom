@@ -12,7 +12,7 @@ dev-python/pyside2-tools 5.15.2: PySide development tools (lupdate, rcc, uic)
 dev-python/python-libzim 1.0.0: The Python-libzim package allows you to read/write ZIM files in Python.
 media-fonts/robotomono 3.000_pre20200508: A monospaced addition to the Roboto type family
 media-libs/opensubdiv 3.4.3-r1: An Open-Source subdivision surface library
-media-sound/gonic 0.14.0: FLOSS alternative to subsonic
+media-sound/gonic 0.14.0 0.15.0_p20221008: FLOSS alternative to subsonic
 sci-astronomy/sunwait 20201026: Sunwait is for calculating sunrise and sunset, and different twilights.
 sci-electronics/smuview 9999: SmuView is a Qt based source measure unit GUI for sigrok
 sci-mathematics/netgen 6.2.2101: Automatic 3d tetrahedal mesh generator
