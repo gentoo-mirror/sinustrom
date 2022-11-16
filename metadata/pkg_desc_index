@@ -6,6 +6,7 @@ app-crypt/eSzemelyi 1.6.21: Electronic Identity Card middleware supplied by the 
 app-text/aha 0.5.1-r1: Converts ANSI escape sequences of a unix terminal to HTML code
 app-text/pyglossary 4.0.11: A tool for converting dictionary files aka glossaries.
 dev-embedded/xr-usb-serial 1d: MaxLinear (Exar) XR21 series UART to USB kernel drivers
+dev-python/ciso8601 2.2.0: Fast ISO8601 date time parser for Python written in C
 dev-python/dokuwikixmlrpc 2021.3.28: Python module which implements DokuWiki's XML-RPC interface
 dev-python/pivy 0.6.5-r1: Coin3D bindings for Python
 dev-python/pyside2-tools 5.15.2: PySide development tools (lupdate, rcc, uic)
