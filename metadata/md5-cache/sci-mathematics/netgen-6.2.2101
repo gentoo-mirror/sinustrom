@@ -1,16 +1,16 @@
 BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install postinst prepare setup test
-DEPEND=python_single_target_python3_8? ( >=dev-lang/python-3.8.16:3.8 ) python_single_target_python3_9? ( >=dev-lang/python-3.9.16:3.9 ) >=dev-lang/tcl-8.5:=[threads(+)] >=dev-lang/tk-8.5:=[threads(+)] sys-libs/zlib:= virtual/glu virtual/opengl x11-libs/libICE:= x11-libs/libX11:= x11-libs/libXext:= x11-libs/libXmu:= ffmpeg? ( media-video/ffmpeg ) jpeg? ( virtual/jpeg:0= ) python? ( python_single_target_python3_8? ( dev-python/pybind11[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/pybind11[python_targets_python3_9(-)] ) ) mpi? ( >=sci-libs/parmetis-4.0.3:= virtual/mpi[cxx,threads] opencascade? ( >=sci-libs/hdf5-1.10.5:=[mpi] ) ) opencascade? ( >=sci-libs/opencascade-7.3.0:=[ffmpeg?] )
+DEPEND=python_single_target_python3_9? ( >=dev-lang/python-3.9.16:3.9 ) >=dev-lang/tcl-8.5:=[threads(+)] >=dev-lang/tk-8.5:=[threads(+)] sys-libs/zlib:= virtual/glu virtual/opengl x11-libs/libICE:= x11-libs/libX11:= x11-libs/libXext:= x11-libs/libXmu:= ffmpeg? ( media-video/ffmpeg ) jpeg? ( virtual/jpeg:0= ) python? ( python_single_target_python3_9? ( dev-python/pybind11[python_targets_python3_9(-)] ) ) mpi? ( >=sci-libs/parmetis-4.0.3:= virtual/mpi[cxx,threads] opencascade? ( >=sci-libs/hdf5-1.10.5:=[mpi] ) ) opencascade? ( >=sci-libs/opencascade-7.3.0:=[ffmpeg?] )
 DESCRIPTION=Automatic 3d tetrahedal mesh generator
 EAPI=8
 HOMEPAGE=https://ngsolve.org/
 INHERIT=cmake python-single-r1
-IUSE=ffmpeg +gui jpeg mpi opencascade +python python_single_target_python3_8 python_single_target_python3_9
+IUSE=ffmpeg +gui jpeg mpi opencascade +python +python_single_target_python3_9
 KEYWORDS=~amd64
 LICENSE=LGPL-2.1
-RDEPEND=python_single_target_python3_8? ( >=dev-lang/python-3.8.16:3.8 ) python_single_target_python3_9? ( >=dev-lang/python-3.9.16:3.9 ) >=dev-lang/tcl-8.5:=[threads(+)] >=dev-lang/tk-8.5:=[threads(+)] sys-libs/zlib:= virtual/glu virtual/opengl x11-libs/libICE:= x11-libs/libX11:= x11-libs/libXext:= x11-libs/libXmu:= ffmpeg? ( media-video/ffmpeg ) jpeg? ( virtual/jpeg:0= ) python? ( python_single_target_python3_8? ( dev-python/pybind11[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/pybind11[python_targets_python3_9(-)] ) ) mpi? ( >=sci-libs/parmetis-4.0.3:= virtual/mpi[cxx,threads] opencascade? ( >=sci-libs/hdf5-1.10.5:=[mpi] ) ) opencascade? ( >=sci-libs/opencascade-7.3.0:=[ffmpeg?] )
-REQUIRED_USE=^^ ( python_single_target_python3_8 python_single_target_python3_9 )
+RDEPEND=python_single_target_python3_9? ( >=dev-lang/python-3.9.16:3.9 ) >=dev-lang/tcl-8.5:=[threads(+)] >=dev-lang/tk-8.5:=[threads(+)] sys-libs/zlib:= virtual/glu virtual/opengl x11-libs/libICE:= x11-libs/libX11:= x11-libs/libXext:= x11-libs/libXmu:= ffmpeg? ( media-video/ffmpeg ) jpeg? ( virtual/jpeg:0= ) python? ( python_single_target_python3_9? ( dev-python/pybind11[python_targets_python3_9(-)] ) ) mpi? ( >=sci-libs/parmetis-4.0.3:= virtual/mpi[cxx,threads] opencascade? ( >=sci-libs/hdf5-1.10.5:=[mpi] ) ) opencascade? ( >=sci-libs/opencascade-7.3.0:=[ffmpeg?] )
+REQUIRED_USE=^^ ( python_single_target_python3_9 )
 SLOT=0
 SRC_URI=https://github.com/NGSolve/netgen/archive/v6.2.2101.tar.gz -> netgen-6.2.2101.tar.gz
-_eclasses_=toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	449b4785acace35308fe747fc939bde1	python-utils-r1	7870d60e8b98856ef02d33397fd5ec0f	python-single-r1	75118e916668a74c660a13b0ecb22562
+_eclasses_=toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	449b4785acace35308fe747fc939bde1	python-utils-r1	a1a985ddd8795a8634b4b7f820b93143	python-single-r1	75118e916668a74c660a13b0ecb22562
 _md5_=0ebf18f1507b920a58901be9030dc1f7
