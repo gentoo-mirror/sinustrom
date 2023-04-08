@@ -10,9 +10,4 @@ media-libs/opensubdiv:opencl - Enable OpenCL support through virtual/opencl
 media-libs/opensubdiv:ptex - Adds support for faster per-face texture mapping through media-libs/ptex
 media-libs/opensubdiv:tbb - Enable multithreading with the Intel Threads Building Blocks through dev-cpp/tbb
 media-libs/opensubdiv:tutorials - Install the tutorials
-sci-mathematics/netgen:ffmpeg - Enable video recording with media-video/ffmpeg
-sci-mathematics/netgen:gui - Build the graphical user interface
-sci-mathematics/netgen:jpeg - Enable snapshots using a virtual/jpeg
-sci-mathematics/netgen:mpi - Enable mpi parallelization using virtual/mpi
-sci-mathematics/netgen:opencascade - Compile with OpenCascade geometry kernel (not supported upstream)
 sys-auth/oath-uri:cli - Install command line tool

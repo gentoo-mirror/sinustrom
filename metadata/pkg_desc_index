@@ -7,7 +7,6 @@ app-text/aha 0.5.1-r1: Converts ANSI escape sequences of a unix terminal to HTML
 app-text/pyglossary 4.0.11: A tool for converting dictionary files aka glossaries.
 dev-embedded/xr-usb-serial 1d: MaxLinear (Exar) XR21 series UART to USB kernel drivers
 dev-python/ciso8601 2.2.0: Fast ISO8601 date time parser for Python written in C
-dev-python/dokuwikixmlrpc 2021.3.28: Python module which implements DokuWiki's XML-RPC interface
 dev-python/pivy 0.6.5-r1: Coin3D bindings for Python
 dev-python/pyside2-tools 5.15.2: PySide development tools (lupdate, rcc, uic)
 dev-python/python-libzim 1.0.0: The Python-libzim package allows you to read/write ZIM files in Python.
@@ -17,9 +16,7 @@ media-libs/opensubdiv 3.4.3-r1: An Open-Source subdivision surface library
 media-sound/gonic 0.15.2: FLOSS alternative to subsonic
 sci-astronomy/sunwait 20201026: Sunwait is for calculating sunrise and sunset, and different twilights.
 sci-electronics/smuview 9999: SmuView is a Qt based source measure unit GUI for sigrok
-sci-mathematics/netgen 6.2.2101: Automatic 3d tetrahedal mesh generator
 sys-auth/oath-uri 1.0.0: A C/C++ library, and CLI tool to generate OATH TOTP/HOTP key sharing URIs
 sys-block/sedutil 1.15.1-r1: The Drive Trust Alliance Self Encrypting Drive Utility
 sys-fs/gocryptfs 2.2.1: Encrypted overlay filesystem written in Go
 www-apps/draw-io 20.4.0: Online diagramming web application
-www-apps/reddio 0.50: reddio is a command-line interface for Reddit written in POSIX sh
