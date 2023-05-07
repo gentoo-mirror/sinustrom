@@ -1,7 +1,7 @@
 acct-group/gonic 0: A group for media-sound/gonic
 acct-user/gonic 0: A user for media-sound/gonic
 app-admin/ryzen_smu 0.1.2_p20211205-r1: Kernel driver for AMD Ryzen's System Management Unit
-app-arch/libzim 7.1.0: Reference implementation for the ZIM file format
+app-arch/libzim 8.2.0: Reference implementation for the ZIM file format
 app-crypt/eSzemelyi 1.6.21: Electronic Identity Card middleware supplied by the Hungarian Government
 app-text/aha 0.5.1-r1: Converts ANSI escape sequences of a unix terminal to HTML code
 dev-embedded/xr-usb-serial 1d: MaxLinear (Exar) XR21 series UART to USB kernel drivers
