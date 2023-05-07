@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 EAPI=8
 
-inherit meson
+inherit meson flag-o-matic
 
 DESCRIPTION="Reference implementation for the ZIM file format"
 HOMEPAGE="https://wiki.openzim.org/wiki/OpenZIM"
@@ -21,3 +21,8 @@ RDEPEND="sys-libs/zlib
 	sys-fs/e2fsprogs"
 
 BDEPEND="virtual/pkgconfig"
+
+src_configure() {
+	append-cxxflags -std=c++14
+	meson_src_configure
+}
