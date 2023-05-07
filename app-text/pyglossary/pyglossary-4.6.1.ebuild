@@ -17,14 +17,29 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gtk"
 
 DEPEND="
+	dev-libs/marisa[${PYTHON_USEDEP}]
+	dev-python/html5lib[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/pyicu[${PYTHON_USEDEP}]
-	dev-libs/marisa[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	dev-python/python-libzim[${PYTHON_USEDEP}]
+	dev-python/python-lzo[${PYTHON_USEDEP}]
 	gtk? ( dev-python/pygobject[${PYTHON_USEDEP}] )
 "
 RDEPEND="${DEPEND}"
 
-PATCHES=( "${FILESDIR}"/${P}-marisa.patch )
+python_compile() {
+	# Build fails without $USER, even though is not used anywhere. Set it as a
+	# workaround. https://github.com/ilius/pyglossary/issues/463
+	local -x USER="portage"
+	distutils-r1_python_compile
+}
+
+python_install() {
+	# Build fails without $USER, even though is not used anywhere. Set it as a
+	# workaround. https://github.com/ilius/pyglossary/issues/463
+	local -x USER="portage"
+	distutils-r1_python_install
+}
