@@ -2,8 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-dev-python/pivy:quarter - Use media-libs/quarter for GUI bindings
-dev-python/pivy:soqt - Use media-libs/SoQt for GUI bindings
 dev-python/pyside2-tools:tools - Install supplementary tools (rcc, uic, designer)
 media-libs/opensubdiv:cuda - Enable NVIDIA CUDA Toolkit support through dev-util/nvidia-cuda-toolkit
 media-libs/opensubdiv:opencl - Enable OpenCL support through virtual/opencl
