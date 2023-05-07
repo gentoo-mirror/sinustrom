@@ -15,12 +15,20 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
-RDEPEND=""
+DEPEND="
+	>=dev-libs/marisa-0.2.6
+"
+RDEPEND="${DEPEND}"
 BDEPEND="
+	${RDEPEND}
 	test? (
 		dev-python/hypothesis[${PYTHON_USEDEP}]
 		dev-python/readme_renderer[${PYTHON_USEDEP}]
 	)
 "
+
+PATCHES=(
+	"${FILESDIR}/system-marisa-lib.patch"
+)
 
 distutils_enable_tests pytest
