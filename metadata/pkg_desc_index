@@ -6,6 +6,7 @@ app-crypt/eSzemelyi 1.6.21: Electronic Identity Card middleware supplied by the 
 app-text/aha 0.5.1-r1: Converts ANSI escape sequences of a unix terminal to HTML code
 dev-embedded/xr-usb-serial 1d: MaxLinear (Exar) XR21 series UART to USB kernel drivers
 dev-python/ciso8601 2.2.0: Fast ISO8601 date time parser for Python written in C
+dev-python/python-libzim 3.1.0: The Python-libzim package allows you to read/write ZIM files in Python.
 dev-python/singer-python 5.13.0: Singer.io utility library
 media-fonts/robotomono 3.000_pre20200508: A monospaced addition to the Roboto type family
 media-libs/opensubdiv 3.4.3-r1: An Open-Source subdivision surface library
