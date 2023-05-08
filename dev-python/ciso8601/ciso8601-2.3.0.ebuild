@@ -4,13 +4,12 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{8..11} )
+PYTHON_COMPAT=( python3_{10..11} )
 
-inherit distutils-r1
+inherit distutils-r1 pypi
 
 DESCRIPTION="Fast ISO8601 date time parser for Python written in C"
 HOMEPAGE="https://github.com/closeio/ciso8601 https://pypi.org/project/ciso8601/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -21,9 +20,8 @@ RESTRICT="!test? ( test )"
 DOCS="README.rst"
 
 BDEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytz[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
