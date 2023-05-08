@@ -14,6 +14,7 @@ media-libs/opensubdiv 3.4.3-r1: An Open-Source subdivision surface library
 media-sound/gonic 0.15.2: FLOSS alternative to subsonic
 sci-astronomy/sunwait 20201026: Sunwait is for calculating sunrise and sunset, and different twilights.
 sci-electronics/smuview 9999: SmuView is a Qt based source measure unit GUI for sigrok
+sci-misc/boinctui 2.7.0: A curses-based terminal BOINC client manager
 sys-auth/oath-uri 1.0.0: A C/C++ library, and CLI tool to generate OATH TOTP/HOTP key sharing URIs
 sys-block/sedutil 1.15.1-r1: The Drive Trust Alliance Self Encrypting Drive Utility
 sys-fs/gocryptfs 2.2.1: Encrypted overlay filesystem written in Go
