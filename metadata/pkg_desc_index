@@ -12,7 +12,7 @@ dev-python/singer-python 5.13.0: Singer.io utility library
 media-fonts/robotomono 3.000_pre20200508: A monospaced addition to the Roboto type family
 media-libs/opensubdiv 3.4.3-r1: An Open-Source subdivision surface library
 media-sound/gonic 0.15.2: FLOSS alternative to subsonic
-media-sound/musescore 4.1.1: WYSIWYG Music Score Typesetter
+media-sound/musescore 4.1.1-r1: WYSIWYG Music Score Typesetter
 sci-astronomy/sunwait 20201026: Sunwait is for calculating sunrise and sunset, and different twilights.
 sci-electronics/smuview 9999: SmuView is a Qt based source measure unit GUI for sigrok
 sci-misc/boinctui 2.7.0: A curses-based terminal BOINC client manager
