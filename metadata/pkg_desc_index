@@ -6,6 +6,7 @@ app-crypt/eSzemelyi 1.6.21: Electronic Identity Card middleware supplied by the 
 app-text/pyglossary 4.6.1: A tool for converting dictionary files aka glossaries.
 dev-python/ciso8601 2.3.0: Fast ISO8601 date time parser for Python written in C
 dev-python/marisa-trie 0.8.0: Static memory-efficient Trie-like structures for Python
+dev-python/pandaSDMX 1.10.0: Statistical Data and Metadata eXchange library
 dev-python/python-libzim 3.1.0: The Python-libzim package allows you to read/write ZIM files in Python.
 dev-python/singer-python 5.13.0: Singer.io utility library
 media-fonts/robotomono 3.000_pre20200508: A monospaced addition to the Roboto type family
