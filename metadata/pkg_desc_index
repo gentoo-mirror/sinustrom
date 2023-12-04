@@ -3,14 +3,12 @@ acct-user/gonic 0: A user for media-sound/gonic
 app-admin/ryzen_smu 0.1.2_p20211205-r1: Kernel driver for AMD Ryzen's System Management Unit
 app-arch/libzim 8.2.0: Reference implementation for the ZIM file format
 app-crypt/eSzemelyi 1.6.21: Electronic Identity Card middleware supplied by the Hungarian Government
-app-text/aha 0.5.1-r1: Converts ANSI escape sequences of a unix terminal to HTML code
 app-text/pyglossary 4.6.1: A tool for converting dictionary files aka glossaries.
 dev-python/ciso8601 2.3.0: Fast ISO8601 date time parser for Python written in C
 dev-python/marisa-trie 0.8.0: Static memory-efficient Trie-like structures for Python
 dev-python/python-libzim 3.1.0: The Python-libzim package allows you to read/write ZIM files in Python.
 dev-python/singer-python 5.13.0: Singer.io utility library
 media-fonts/robotomono 3.000_pre20200508: A monospaced addition to the Roboto type family
-media-libs/opensubdiv 3.4.3-r1: An Open-Source subdivision surface library
 media-sound/gonic 0.16.2: FLOSS alternative to subsonic
 media-sound/musescore 4.1.1-r1: WYSIWYG Music Score Typesetter
 sci-astronomy/sunwait 20201026: Sunwait is for calculating sunrise and sunset, and different twilights.

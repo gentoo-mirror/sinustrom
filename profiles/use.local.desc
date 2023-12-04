@@ -2,9 +2,4 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-media-libs/opensubdiv:cuda - Enable NVIDIA CUDA Toolkit support through dev-util/nvidia-cuda-toolkit
-media-libs/opensubdiv:opencl - Enable OpenCL support through virtual/opencl
-media-libs/opensubdiv:ptex - Adds support for faster per-face texture mapping through media-libs/ptex
-media-libs/opensubdiv:tbb - Enable multithreading with the Intel Threads Building Blocks through dev-cpp/tbb
-media-libs/opensubdiv:tutorials - Install the tutorials
 sys-auth/oath-uri:cli - Install command line tool
