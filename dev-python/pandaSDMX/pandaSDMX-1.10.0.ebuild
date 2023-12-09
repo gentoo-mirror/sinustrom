@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-cache-0.9.5[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (
