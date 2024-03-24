@@ -8,7 +8,7 @@ inherit desktop unpacker xdg-utils
 MY_PV=$(ver_rs 1- _)
 DESCRIPTION="Electronic Identity Card middleware supplied by the Hungarian Government"
 HOMEPAGE="https://eszemelyi.hu"
-SRC_URI="https://eszemelyi.hu/wp-content/uploads/2021/08/${PN}_Kliens_x64_${MY_PV}.deb"
+SRC_URI="https://eszemelyi.hu/wp-content/uploads/2023/05/${PN}_Kliens_x64_${MY_PV}.deb"
 
 LICENSE="eSzemelyi-EULA"
 SLOT="0"
