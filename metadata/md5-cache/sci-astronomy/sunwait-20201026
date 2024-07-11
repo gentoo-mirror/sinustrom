@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/risacher/sunwait/archive/102cb417ecbb7a3757ba9ee4b94d6db3225124c4.tar.gz -> sunwait-20201026.tar.gz
-_eclasses_=vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e
+_eclasses_=vcs-snapshot	3d327d546f76e4c2054573ff0d78fad2
 _md5_=bc069cd9cfe13407945a3a850570a2f6
