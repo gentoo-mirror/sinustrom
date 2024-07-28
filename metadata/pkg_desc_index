@@ -10,7 +10,7 @@ dev-python/pandaSDMX 1.10.0: Statistical Data and Metadata eXchange library
 dev-python/python-libzim 3.1.0: The Python-libzim package allows you to read/write ZIM files in Python.
 dev-python/singer-python 5.13.0: Singer.io utility library
 media-fonts/robotomono 3.000_pre20240306: A monospaced addition to the Roboto type family
-media-sound/gonic 0.16.2: FLOSS alternative to subsonic
+media-sound/gonic 0.16.4: FLOSS alternative to subsonic
 sci-astronomy/sunwait 20201026: Sunwait is for calculating sunrise and sunset, and different twilights.
 sci-electronics/smuview 9999: SmuView is a Qt based source measure unit GUI for sigrok
 sci-misc/boinctui 2.7.0: A curses-based terminal BOINC client manager
