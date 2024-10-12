@@ -1,7 +1,7 @@
-From ecfd482016d41d035d9f128e91a51f107230a735 Mon Sep 17 00:00:00 2001
+From 8364306213ebc4b5c4732c06bb857a164861a240 Mon Sep 17 00:00:00 2001
 From: Alex <alex@ubi64.(none)>
 Date: Sun, 19 Nov 2017 00:44:28 +0100
-Subject: [PATCH 3/3] Add S3 sleep support for Linux
+Subject: [PATCH 3/4] Add S3 sleep support for Linux
 
 The new command is --prepareForS3Sleep, and it should be called every
 new boot, as it stores the drive key (password hash) in kernel memory.
@@ -11,18 +11,18 @@ new boot, as it stores the drive key (password hash) in kernel memory.
  Common/DtaOptions.cpp      | 24 ++++++++++++++++++++
  Common/DtaOptions.h        |  1 +
  Common/sedutil.cpp         |  4 ++++
- Makefile.am                |  6 +++--
+ Makefile.am                |  3 ++-
  linux/DtaDevLinuxDrive.cpp | 46 ++++++++++++++++++++++++++++++++++++++
  linux/DtaDevLinuxDrive.h   |  5 +++++
  linux/DtaDevLinuxNvme.h    |  1 -
  linux/DtaDevLinuxSata.h    |  1 -
  linux/DtaDevOS.cpp         | 33 +++++++++++++++++++++++++++
  linux/DtaDevOS.h           |  2 ++
- 12 files changed, 130 insertions(+), 4 deletions(-)
+ 12 files changed, 128 insertions(+), 3 deletions(-)
  create mode 100755 linux/DtaDevLinuxDrive.cpp
 
 diff --git a/Common/DtaDev.cpp b/Common/DtaDev.cpp
-index 30e4930..7bd4493 100644
+index 12b50b9..283dd05 100644
 --- a/Common/DtaDev.cpp
 +++ b/Common/DtaDev.cpp
 @@ -319,3 +319,9 @@ void DtaDev::puke()
@@ -52,7 +52,7 @@ index 9a69d88..e103633 100644
  	 * @param sp index into the OPALUID table for the SP the object is in
  	 * @param auth the authority ti use for the dump
 diff --git a/Common/DtaOptions.cpp b/Common/DtaOptions.cpp
-index 20fc241..b8005dc 100644
+index 7dda0be..91cc240 100644
 --- a/Common/DtaOptions.cpp
 +++ b/Common/DtaOptions.cpp
 @@ -99,6 +99,9 @@ void usage()
@@ -65,7 +65,7 @@ index 20fc241..b8005dc 100644
      printf("\n");
      printf("Examples \n");
      printf("sedutil-cli --scan \n");
-@@ -522,6 +525,27 @@ uint8_t DtaOptions(int argc, char * argv[], DTA_OPTIONS * opts)
+@@ -523,6 +526,27 @@ uint8_t DtaOptions(int argc, char * argv[], DTA_OPTIONS * opts)
              OPTION_IS(password)
              OPTION_IS(device)
          END_OPTION
@@ -121,29 +121,19 @@ index c354d78..4427e87 100644
  		LOG(D) << "Performing cmdDump ";
  		return d->rawCmd(argv[argc - 7], argv[argc - 6], argv[argc - 5], argv[argc - 4], argv[argc - 3], argv[argc - 2]);
 diff --git a/Makefile.am b/Makefile.am
-index f32e4f1..56ed21e 100644
+index 6656d59..35b6aad 100644
 --- a/Makefile.am
 +++ b/Makefile.am
-@@ -25,7 +25,8 @@ sedutil_cli_SOURCES = linux/Version.h Common/sedutil.cpp Common/DtaOptions.cpp C
- 	linux/DtaDevLinuxNvme.cpp linux/DtaDevLinuxNvme.h \
- 	linux/DtaDevLinuxSata.cpp linux/DtaDevLinuxSata.h \
- 	linux/DtaDevOS.cpp linux/DtaDevOS.h \
--	linux/DtaDevLinuxDrive.h linux/os.h \
-+	linux/DtaDevLinuxDrive.cpp linux/DtaDevLinuxDrive.h \
-+	linux/os.h \
- 	$(SEDUTIL_COMMON_CODE)
- CLEANFILES = linux/Version.h
- BUILT_SOURCES = linux/Version.h
-@@ -36,7 +37,8 @@ linuxpba_SOURCES = LinuxPBA/LinuxPBA.cpp LinuxPBA/GetPassPhrase.cpp LinuxPBA/Unl
- 	linux/DtaDevLinuxNvme.cpp linux/DtaDevLinuxNvme.h \
- 	linux/DtaDevLinuxSata.cpp linux/DtaDevLinuxSata.h \
- 	linux/DtaDevOS.cpp linux/DtaDevOS.h \
--	linux/DtaDevLinuxDrive.h linux/os.h \
-+	linux/DtaDevLinuxDrive.cpp linux/DtaDevLinuxDrive.h \
-+	linux/os.h \
- 	\
- 	$(SEDUTIL_COMMON_CODE)
- EXTRA_DIST = linux/GitVersion.sh linux/PSIDRevert_LINUX.txt linux/TestSuite.sh README.md docs/sedutil-cli.8
+@@ -25,7 +25,8 @@ SEDUTIL_COMMON_CODE = Common/log.h \
+ 	Common/pbkdf2/bitops.h Common/pbkdf2/blockwise.h \
+ 	Common/pbkdf2/handy.h Common/pbkdf2/tassert.h 
+ SEDUTIL_LINUX_CODE = \
+-	linux/Version.h linux/os.h linux/DtaDevLinuxDrive.h \
++	linux/Version.h linux/os.h \
++	linux/DtaDevLinuxDrive.h linux/DtaDevLinuxDrive.cpp \
+ 	linux/DtaDevLinuxNvme.cpp linux/DtaDevLinuxSata.cpp \
+ 	linux/DtaDevLinuxNvme.h linux/DtaDevLinuxSata.h \
+ 	linux/DtaDevOS.cpp linux/DtaDevOS.h 
 diff --git a/linux/DtaDevLinuxDrive.cpp b/linux/DtaDevLinuxDrive.cpp
 new file mode 100755
 index 0000000..d04606a
@@ -305,5 +295,5 @@ index beeacb3..fc3705f 100644
      /** OS specific command to Wait for specified number of milliseconds 
       * @param ms  number of milliseconds to wait
 -- 
-2.30.0
+2.47.0
 
