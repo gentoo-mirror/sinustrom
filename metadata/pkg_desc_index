@@ -1,6 +1,5 @@
 acct-group/gonic 0: A group for media-sound/gonic
 acct-user/gonic 0: A user for media-sound/gonic
-app-admin/ryzen_smu 0.1.2_p20211205-r1: Kernel driver for AMD Ryzen's System Management Unit
 app-arch/libzim 8.2.0: Reference implementation for the ZIM file format
 app-crypt/eSzemelyi 1.7.3: Electronic Identity Card middleware supplied by the Hungarian Government
 app-text/pyglossary 4.6.1: A tool for converting dictionary files aka glossaries.
@@ -11,10 +10,10 @@ dev-python/python-libzim 3.1.0: The Python-libzim package allows you to read/wri
 dev-python/singer-python 5.13.0: Singer.io utility library
 media-fonts/robotomono 3.000_pre20240306: A monospaced addition to the Roboto type family
 media-sound/gonic 0.16.4 0.16.4-r1: FLOSS alternative to subsonic
-sci-astronomy/sunwait 20201026: Sunwait is for calculating sunrise and sunset, and different twilights.
+sci-astronomy/sunwait 0.9.1: Sunwait is for calculating sunrise and sunset, and different twilights.
 sci-electronics/smuview 9999: SmuView is a Qt based source measure unit GUI for sigrok
 sci-misc/boinctui 2.7.0: A curses-based terminal BOINC client manager
 sys-auth/oath-uri 1.0.0: A C/C++ library, and CLI tool to generate OATH TOTP/HOTP key sharing URIs
-sys-block/sedutil 1.15.1-r1: The Drive Trust Alliance Self Encrypting Drive Utility
+sys-block/sedutil 1.20.0-r1: The Drive Trust Alliance Self Encrypting Drive Utility
 sys-fs/gocryptfs 2.4.0-r1: Encrypted overlay filesystem written in Go
 www-apps/draw-io 23.1.5: Online diagramming web application
