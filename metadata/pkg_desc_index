@@ -16,4 +16,5 @@ sci-misc/boinctui 2.7.1: A curses-based terminal BOINC client manager
 sys-auth/oath-uri 1.0.0: A C/C++ library, and CLI tool to generate OATH TOTP/HOTP key sharing URIs
 sys-block/sedutil 1.20.0-r1: The Drive Trust Alliance Self Encrypting Drive Utility
 sys-fs/gocryptfs 2.4.0-r1: Encrypted overlay filesystem written in Go
+sys-kernel/gasket-driver 20240425: The Coral Gasket Driver allows usage of the Coral EdgeTPU on Linux systems
 www-apps/draw-io 23.1.5: Online diagramming web application
