@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=app-admin/webapp-config || ( virtual/httpd-cgi virtual/httpd-fastcgi ) app-admin/webapp-config
+DESCRIPTION=Admin console for Beanstalk queue server, written in PHP
+EAPI=8
+HOMEPAGE=https://github.com/ptrofimov/beanstalk_console
+INHERIT=webapp
+IUSE=vhosts vhosts
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/php-8.0 virtual/httpd-php:* app-admin/webapp-config app-admin/webapp-config
+SLOT=0
+SRC_URI=https://github.com/ptrofimov/beanstalk_console/archive/1.7.21.tar.gz -> beanstalk-console-1.7.21.tar.gz
+_eclasses_=webapp	5fa840db95fc7348dfd53b8526ed05f5
+_md5_=d56835acc07d72d232db676de221629f
