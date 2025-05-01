@@ -2,7 +2,6 @@ acct-group/gonic 0: A group for media-sound/gonic
 acct-user/gonic 0: A user for media-sound/gonic
 app-arch/libzim 8.2.0: Reference implementation for the ZIM file format
 app-crypt/eSzemelyi 1.7.3: Electronic Identity Card middleware supplied by the Hungarian Government
-app-text/pyglossary 4.6.1: A tool for converting dictionary files aka glossaries.
 dev-python/ciso8601 2.3.0: Fast ISO8601 date time parser for Python written in C
 dev-python/marisa-trie 0.8.0: Static memory-efficient Trie-like structures for Python
 dev-python/pandaSDMX 1.10.0: Statistical Data and Metadata eXchange library
