@@ -2,10 +2,4 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-dev-util/nvidia-cuda-toolkit:debugger - Install the CUDA debugger
-dev-util/nvidia-cuda-toolkit:nsight - Install profiling and optimizing tools (nsight-compute, nsight-systems)
-dev-util/nvidia-cuda-toolkit:profiler - Install the NVIDIA CUDA profiler (nvprof) and the related libraries
-dev-util/nvidia-cuda-toolkit:rdma - Enable infiniband support via sys-cluster/rdma-core
-dev-util/nvidia-cuda-toolkit:sanitizer - Install compute-sanitizer tool
-dev-util/nvidia-cuda-toolkit:vis-profiler - Install the NVIDIA CUDA visual profiler (nvvp)
 sys-auth/oath-uri:cli - Install command line tool
